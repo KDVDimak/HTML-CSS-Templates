@@ -14,10 +14,6 @@ A responsive freelance marketplace landing page built with HTML, CSS and JavaScr
 - External image URLs
 - Font Awesome icons
 
-## Images
-
-All images are loaded from external Unsplash URLs. No local image files are required.
-
 ## Files
 
 - `index.html`
