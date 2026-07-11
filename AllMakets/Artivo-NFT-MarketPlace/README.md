@@ -1,29 +1,44 @@
-# Artivo — NFT Marketplace Landing Page
+# Artivo — NFT Marketplace
 
 A responsive NFT marketplace landing page built with HTML and CSS.
 
-## Images
+## Overview
 
-All project images are loaded from external Unsplash URLs. No local image
-files are required.
+Artivo is a dark digital art marketplace concept with auction cards, creator profiles and featured collections.  
+The interface is designed to present NFT artwork in a modern and visually focused way.
 
-An internet connection is required for the images and Font Awesome icons
-to load correctly.
+## Features
+
+- Responsive navigation
+- NFT auction cards
+- Current bid and countdown information
+- Featured artists section
+- Marketplace statistics
+- Newsletter form
+- Social media icons
+- External image URLs
+- Mobile-friendly layout
+
+## Built With
+
+- HTML5
+- CSS3
+- CSS Grid
+- Flexbox
+- Font Awesome
 
 ## Files
 
 - `index.html`
 - `style.css`
 
-## Features
+## What I Practiced
 
-- Responsive layout
-- NFT auction cards built with semantic HTML
-- External image URLs
-- Artist gallery
-- Newsletter form
-- Mobile-friendly design
-- Font Awesome social and interface icons
+- Building card-based interfaces
+- Creating dark visual themes
+- Working with responsive grids
+- Structuring marketplace content
+- Replacing image-based UI with semantic HTML
 
 ## Author
 
@@ -32,3 +47,7 @@ Dmytro Kryvonos
 - GitHub: https://github.com/KDVDimak
 - LinkedIn: https://www.linkedin.com/in/dmytro-kryvonos-b0657a302/
 - Email: kdv.dimak@gmail.com
+
+## License
+
+This project is available for educational and portfolio purposes.
