@@ -11,14 +11,14 @@ content structures and interface patterns across multiple industries.
 
 ## Templates
 
-- Architecture Studio
-- Artivo — NFT Marketplace
-- Morrow — Coffee Shop
-- Élan — Fashion Store
-- Apex — Fitness Club
-- Taskly — Freelance Marketplace
-- Roamly — Travel Agency
-- UrbanLens — Urban Data Studio
+- [Forma — Architecture Studio](https://kdvdimak.github.io/HTML-CSS-Templates/Frontend-Templates/Architecture-Studio/)
+- [Artivo — NFT Marketplace](https://kdvdimak.github.io/HTML-CSS-Templates/Frontend-Templates/Artivo-NFT-MarketPlace/)
+- [Morrow — Coffee Shop](https://kdvdimak.github.io/HTML-CSS-Templates/Frontend-Templates/Coffee-Shop/)
+- [Élan — Fashion Store](https://kdvdimak.github.io/HTML-CSS-Templates/Frontend-Templates/Fashion-Store/)
+- [Apex — Fitness Club](https://kdvdimak.github.io/HTML-CSS-Templates/Frontend-Templates/Fitness-Club/)
+- [Taskly — Freelance Marketplace](https://kdvdimak.github.io/HTML-CSS-Templates/Frontend-Templates/Taskly-Freelance-MarketPlace/)
+- [Roamly — Travel Agency](https://kdvdimak.github.io/HTML-CSS-Templates/Frontend-Templates/Travel-Agency/)
+- [UrbanLens — Urban Data Studio](https://kdvdimak.github.io/HTML-CSS-Templates/Frontend-Templates/Urbanlens-Data-Studio/)
 
 ## Technologies
 
