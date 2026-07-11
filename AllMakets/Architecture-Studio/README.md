@@ -33,10 +33,6 @@ The project focuses on strong typography, minimal layouts, large visual sections
 - `style.css`
 - `script.js`
 
-## Images
-
-All images are loaded from external URLs. No local image files are required.
-
 ## What I Practiced
 
 - Building editorial page layouts
