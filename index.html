@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A collection of responsive frontend templates created by Dmytro Kryvonos.">
+  <title>Frontend Template Collection — Dmytro Kryvonos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="header">
+    <div class="container header__container">
+      <a class="logo" href="#home">DK<span>.</span></a>
+
+      <nav class="navigation">
+        <a href="#templates">Templates</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="header__link" href="https://github.com/KDVDimak/HTML-CSS-Templates" target="_blank" rel="noreferrer">
+        GitHub
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__glow hero__glow--one"></div>
+      <div class="hero__glow hero__glow--two"></div>
+
+      <div class="container hero__container">
+        <div class="hero__content reveal">
+          <div class="eyebrow">
+            <span></span>
+            HTML · CSS · JavaScript
+          </div>
+
+          <h1>
+            Frontend templates
+            <span>crafted with purpose.</span>
+          </h1>
+
+          <p>
+            A curated collection of responsive one-page concepts exploring typography,
+            layout systems, visual hierarchy and modern interface design.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#templates">
+              Explore templates
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+
+            <a class="button button--secondary" href="https://github.com/KDVDimak" target="_blank" rel="noreferrer">
+              View profile
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <div class="hero__meta">
+            <div>
+              <strong>08</strong>
+              <span>Templates</span>
+            </div>
+            <div>
+              <strong>03</strong>
+              <span>Technologies</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Responsive</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="preview-stack">
+            <div class="preview-card preview-card--back">
+              <div class="preview-card__top">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="preview-card__content">
+                <small>Template collection</small>
+                <strong>Modern interfaces</strong>
+                <div class="preview-lines">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="preview-card preview-card--front">
+              <div class="preview-card__top">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="preview-card__content">
+                <small>Selected project</small>
+                <strong>Built to be explored</strong>
+                <div class="preview-grid">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="code-chip">
+            <span>&lt;/&gt;</span>
+            Clean and readable code
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="templates section" id="templates">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">Selected collection</p>
+            <h2>
+              Eight concepts.
+              <span>Eight visual directions.</span>
+            </h2>
+          </div>
+
+          <p>
+            Each template includes responsive layouts, external image URLs,
+            readable code and individual documentation.
+          </p>
+        </div>
+
+        <div class="filter-bar reveal">
+          <button class="filter-button active" type="button" data-filter="all">All projects</button>
+          <button class="filter-button" type="button" data-filter="business">Business</button>
+          <button class="filter-button" type="button" data-filter="lifestyle">Lifestyle</button>
+          <button class="filter-button" type="button" data-filter="marketplace">Marketplace</button>
+        </div>
+
+        <div class="template-grid">
+          <article class="template-card reveal" data-category="business">
+            <a class="template-card__image" href="./Frontend-Templates/Architecture-Studio/">
+              <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=85" alt="Modern architecture studio project">
+              <span class="template-card__number">01</span>
+              <span class="template-card__open">Open website <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </a>
+            <div class="template-card__content">
+              <div>
+                <p>Architecture · Editorial</p>
+                <h3>Forma Architecture Studio</h3>
+              </div>
+              <div class="template-card__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="template-card reveal" data-category="marketplace">
+            <a class="template-card__image" href="./Frontend-Templates/Artivo-NFT-MarketPlace/">
+              <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=85" alt="Futuristic NFT marketplace artwork">
+              <span class="template-card__number">02</span>
+              <span class="template-card__open">Open website <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </a>
+            <div class="template-card__content">
+              <div>
+                <p>Digital Art · Marketplace</p>
+                <h3>Artivo NFT Marketplace</h3>
+              </div>
+              <div class="template-card__tags">
+                <span>HTML</span><span>CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="template-card reveal" data-category="lifestyle">
+            <a class="template-card__image" href="./Frontend-Templates/Coffee-Shop/">
+              <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85" alt="Modern coffee shop interior">
+              <span class="template-card__number">03</span>
+              <span class="template-card__open">Open website <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </a>
+            <div class="template-card__content">
+              <div>
+                <p>Hospitality · Lifestyle</p>
+                <h3>Morrow Coffee Shop</h3>
+              </div>
+              <div class="template-card__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="template-card reveal" data-category="lifestyle">
+            <a class="template-card__image" href="./Frontend-Templates/Fashion-Store/">
+              <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1200&q=85" alt="Fashion store collection">
+              <span class="template-card__number">04</span>
+              <span class="template-card__open">Open website <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </a>
+            <div class="template-card__content">
+              <div>
+                <p>Fashion · Ecommerce</p>
+                <h3>Élan Fashion Store</h3>
+              </div>
+              <div class="template-card__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="template-card reveal" data-category="lifestyle">
+            <a class="template-card__image" href="./Frontend-Templates/Fitness-Club/">
+              <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85" alt="Modern fitness club">
+              <span class="template-card__number">05</span>
+              <span class="template-card__open">Open website <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </a>
+            <div class="template-card__content">
+              <div>
+                <p>Fitness · Membership</p>
+                <h3>Apex Fitness Club</h3>
+              </div>
+              <div class="template-card__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="template-card reveal" data-category="marketplace business">
+            <a class="template-card__image" href="./Frontend-Templates/Taskly-Freelance-MarketPlace/">
+              <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=85" alt="Freelance professionals working together">
+              <span class="template-card__number">06</span>
+              <span class="template-card__open">Open website <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </a>
+            <div class="template-card__content">
+              <div>
+                <p>Services · Marketplace</p>
+                <h3>Taskly Freelance Marketplace</h3>
+              </div>
+              <div class="template-card__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="template-card reveal" data-category="lifestyle">
+            <a class="template-card__image" href="./Frontend-Templates/Travel-Agency/">
+              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85" alt="Scenic travel destination">
+              <span class="template-card__number">07</span>
+              <span class="template-card__open">Open website <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </a>
+            <div class="template-card__content">
+              <div>
+                <p>Travel · Editorial</p>
+                <h3>Roamly Travel Agency</h3>
+              </div>
+              <div class="template-card__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="template-card reveal" data-category="business">
+            <a class="template-card__image" href="./Frontend-Templates/Urbanlens-Data-Studio/">
+              <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1200&q=85" alt="Aerial view of a modern city">
+              <span class="template-card__number">08</span>
+              <span class="template-card__open">Open website <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </a>
+            <div class="template-card__content">
+              <div>
+                <p>Urban Data · Research</p>
+                <h3>UrbanLens Data Studio</h3>
+              </div>
+              <div class="template-card__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about__container">
+        <div class="about__title reveal">
+          <p class="section-label">About the collection</p>
+          <h2>
+            Different styles.
+            <span>One clear standard.</span>
+          </h2>
+        </div>
+
+        <div class="about__content reveal">
+          <p class="about__lead">
+            Every project was built to practice a specific visual direction
+            while keeping the code readable, responsive and easy to explore.
+          </p>
+
+          <p>
+            The collection covers marketplaces, editorial websites, lifestyle
+            brands and service platforms. Each project includes semantic HTML,
+            modern CSS layouts and lightweight JavaScript interactions.
+          </p>
+
+          <div class="about__features">
+            <div>
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <strong>Responsive</strong>
+              <span>Designed for desktop, tablet and mobile screens.</span>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <strong>Readable code</strong>
+              <span>Formatted files and clear project structure.</span>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              <strong>Visual variety</strong>
+              <span>Eight different industries and design approaches.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact__glow"></div>
+
+      <div class="container contact__container reveal">
+        <p class="section-label">Created by Dmytro Kryvonos</p>
+
+        <h2>
+          Interested in the code
+          or the next project?
+        </h2>
+
+        <p>
+          Explore the repository, connect on LinkedIn or send me an email.
+        </p>
+
+        <div class="contact__actions">
+          <a class="button button--light" href="mailto:kdv.dimak@gmail.com">
+            Send an email
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+          <a class="button button--outline" href="https://www.linkedin.com/in/dmytro-kryvonos-b0657a302/" target="_blank" rel="noreferrer">
+            LinkedIn
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <a class="logo" href="#home">DK<span>.</span></a>
+
+      <p>Frontend Template Collection · 2026</p>
+
+      <div>
+        <a href="https://github.com/KDVDimak" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/dmytro-kryvonos-b0657a302/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
