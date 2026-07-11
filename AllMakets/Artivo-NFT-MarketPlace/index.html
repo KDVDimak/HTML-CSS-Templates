@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="A responsive NFT marketplace landing page built with HTML and CSS."
+  >
+
+  <title>Artivo — NFT Marketplace</title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a
+        class="logo"
+        href="#home"
+      >
+        Artivo<span>.</span>
+      </a>
+
+      <nav class="header__menu">
+        <a href="#marketplace">Marketplace</a>
+        <a href="#artists">Artists</a>
+        <a href="#community">Community</a>
+        <a href="#collections">Collections</a>
+      </nav>
+
+      <a
+        class="button button--small"
+        href="#contact"
+      >
+        Contact
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section
+      class="hero"
+      id="home"
+    >
+      <div class="container hero__container">
+        <div class="hero__content">
+          <p class="eyebrow">
+            Discover the next generation of digital art
+          </p>
+
+          <h1>
+            Discover and collect the best
+            <span>NFT digital art.</span>
+          </h1>
+
+          <p class="hero__description">
+            Explore a curated marketplace for unique digital artwork,
+            emerging creators and limited NFT collections.
+          </p>
+
+          <div class="hero__actions">
+            <a
+              class="button"
+              href="#marketplace"
+            >
+              Explore now
+            </a>
+
+            <a
+              class="text-link"
+              href="#community"
+            >
+              Learn more
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="stats">
+            <div class="stats__item">
+              <strong>8.9K</strong>
+              <span>Artworks</span>
+            </div>
+
+            <div class="stats__item">
+              <strong>65K</strong>
+              <span>Artists</span>
+            </div>
+
+            <div class="stats__item">
+              <strong>87K</strong>
+              <span>Collections</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <img
+            src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1100&q=85"
+            alt="Futuristic digital artwork"
+          >
+
+          <div class="auction-box">
+            <div>
+              <span>Ends in</span>
+              <strong>05:45:47</strong>
+            </div>
+
+            <div>
+              <span>Current bid</span>
+              <strong>0.24 ETH</strong>
+            </div>
+
+            <a
+              class="auction-box__button"
+              href="#marketplace"
+            >
+              Place a bid
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="marketplace section"
+      id="marketplace"
+    >
+      <div class="container">
+        <div class="section-heading">
+          <h2>
+            Amazing and super
+            <span>unique art</span>
+            this week
+          </h2>
+
+          <a
+            class="button button--small"
+            href="#collections"
+          >
+            See all
+          </a>
+        </div>
+
+        <div class="nft-grid">
+          <article class="nft-card">
+            <img
+              src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=900&q=85"
+              alt="Cyberpunk portrait artwork"
+            >
+
+            <div class="nft-card__body">
+              <div class="nft-card__title">
+                <h3>Cyberpunk Cocomo</h3>
+                <strong>
+                  <i class="fa-brands fa-ethereum"></i>
+                  490 ETH
+                </strong>
+              </div>
+
+              <div class="nft-card__footer">
+                <div>
+                  <span>Ending in</span>
+                  <strong>
+                    <i class="fa-regular fa-clock"></i>
+                    03:24:56
+                  </strong>
+                </div>
+
+                <a href="#">
+                  Place a bid
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="nft-card">
+            <img
+              src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=85"
+              alt="Futuristic technology artwork"
+            >
+
+            <div class="nft-card__body">
+              <div class="nft-card__title">
+                <h3>Neon Vanguard</h3>
+                <strong>
+                  <i class="fa-brands fa-ethereum"></i>
+                  326 ETH
+                </strong>
+              </div>
+
+              <div class="nft-card__footer">
+                <div>
+                  <span>Ending in</span>
+                  <strong>
+                    <i class="fa-regular fa-clock"></i>
+                    04:18:21
+                  </strong>
+                </div>
+
+                <a href="#">
+                  Place a bid
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="nft-card">
+            <img
+              src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=85"
+              alt="Abstract futuristic technology"
+            >
+
+            <div class="nft-card__body">
+              <div class="nft-card__title">
+                <h3>Digital Surgeon</h3>
+                <strong>
+                  <i class="fa-brands fa-ethereum"></i>
+                  278 ETH
+                </strong>
+              </div>
+
+              <div class="nft-card__footer">
+                <div>
+                  <span>Ending in</span>
+                  <strong>
+                    <i class="fa-regular fa-clock"></i>
+                    02:47:09
+                  </strong>
+                </div>
+
+                <a href="#">
+                  Place a bid
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="create section"
+      id="community"
+    >
+      <div class="container create__container">
+        <div class="create__content">
+          <p class="section-label">
+            Create and collect
+          </p>
+
+          <h2>
+            Create and sell your
+            <span>best NFTs.</span>
+          </h2>
+
+          <p>
+            Build your profile, publish original digital artwork and connect
+            with collectors from around the world.
+          </p>
+
+          <div class="create__actions">
+            <a
+              class="button"
+              href="#contact"
+            >
+              Create now
+            </a>
+
+            <a
+              class="text-link"
+              href="#artists"
+            >
+              Learn more
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="create__gallery">
+          <img
+            class="create__image create__image--back"
+            src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=800&q=85"
+            alt="Abstract digital artwork"
+          >
+
+          <img
+            class="create__image create__image--front"
+            src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=85"
+            alt="Futuristic gaming artwork"
+          >
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="artists section"
+      id="artists"
+    >
+      <div class="container">
+        <div class="section-heading">
+          <h2>
+            Popular
+            <span>artists</span>
+            this week
+          </h2>
+
+          <a
+            class="button button--small"
+            href="#collections"
+          >
+            See all
+          </a>
+        </div>
+
+        <div class="artist-grid">
+          <article class="artist-card artist-card--wide">
+            <img
+              src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1100&q=85"
+              alt="Digital artist workspace"
+            >
+
+            <div class="artist-card__info">
+              <div class="avatar">CL</div>
+
+              <div>
+                <span>Creator</span>
+                <strong>Cristio Leo</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="artist-card">
+            <img
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=900&q=85"
+              alt="Creative technology workspace"
+            >
+
+            <div class="artist-card__info">
+              <div class="avatar">OP</div>
+
+              <div>
+                <span>Creator</span>
+                <strong>Osvaldo Percy</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="artist-card">
+            <img
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85"
+              alt="Digital creator working"
+            >
+
+            <div class="artist-card__info">
+              <div class="avatar">RS</div>
+
+              <div>
+                <span>Creator</span>
+                <strong>Ranson Squire</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="artist-card artist-card--wide">
+            <img
+              src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1100&q=85"
+              alt="Digital code artwork"
+            >
+
+            <div class="artist-card__info">
+              <div class="avatar">SW</div>
+
+              <div>
+                <span>Creator</span>
+                <strong>Sebastian Waltan</strong>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="newsletter section"
+      id="collections"
+    >
+      <div class="container newsletter__container">
+        <div class="newsletter__image">
+          <img
+            src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1100&q=85"
+            alt="Creative digital studio"
+          >
+        </div>
+
+        <div class="newsletter__content">
+          <p class="section-label">
+            Weekly inspiration
+          </p>
+
+          <h2>
+            Subscribe and
+            <span>get our updates</span>
+            every week.
+          </h2>
+
+          <p>
+            Receive curated artwork, marketplace news and creator stories
+            directly in your inbox.
+          </p>
+
+          <form class="newsletter__form">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              aria-label="Email address"
+              required
+            >
+
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer
+    class="footer"
+    id="contact"
+  >
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__about">
+          <a
+            class="logo"
+            href="#home"
+          >
+            Artivo<span>.</span>
+          </a>
+
+          <p>
+            Discover new NFT collections, follow emerging creators and
+            explore the future of digital ownership.
+          </p>
+
+          <div class="socials">
+            <a
+              href="#"
+              aria-label="Facebook"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a
+              href="#"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a
+              href="#"
+              aria-label="Telegram"
+            >
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+
+            <a
+              href="#"
+              aria-label="Twitter"
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <div>
+            <h3>Explore</h3>
+            <a href="#marketplace">Art</a>
+            <a href="#collections">Collections</a>
+            <a href="#artists">Artists</a>
+            <a href="#community">Community</a>
+          </div>
+
+          <div>
+            <h3>Statistics</h3>
+            <a href="#">Ranking</a>
+            <a href="#">Activity</a>
+            <a href="#">Drops</a>
+          </div>
+
+          <div>
+            <h3>Company</h3>
+            <a href="#">About us</a>
+            <a href="#">Careers</a>
+            <a href="#">Support</a>
+            <a href="#">Partners</a>
+          </div>
+
+          <div>
+            <h3>Resources</h3>
+            <a href="#">Help center</a>
+            <a href="#">Platform status</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>
+          © 2026 Dmytro Kryvonos. Frontend practice project.
+        </p>
+
+        <div>
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms and conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
